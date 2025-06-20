@@ -17,13 +17,13 @@ jobs:
 
     - name: Build and Push Backend
       run: |
-        docker build -t your-dockerhub-username/backend:v1 ./backend
-        docker push your-dockerhub-username/backend:v1
+        docker build -t ghostnoble/backend:v1 ./backend
+        docker push ghostnoble/backend:v1
 
     - name: Build and Push Frontend
       run: |
-        docker build -t your-dockerhub-username/frontend:v1 ./frontend
-        docker push your-dockerhub-username/frontend:v1
+        docker build -t ghostnoble/frontend:v1 ./frontend
+        docker push ghostnoble/frontend:v1
 
     - name: Deploy on Remote Server via SSH
       uses: appleboy/ssh-action@v1.0.3
