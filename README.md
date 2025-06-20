@@ -1,12 +1,14 @@
 # 🚀 Dockerized 2-Tier Web App with GitHub CI/CD
 
-This is a Capstone Project for **Group 6** under the "Cloud Infrastructure and Automation" track. The project involves building and deploying a two-tier web application (frontend + backend) using Docker, GitHub, and Azure.
+This is a Capstone Project for **Group 6** under the Cloud Infrastructure and Automation track. The project involves building and deploying a two-tier web application (frontend + backend) using Docker, GitHub, and Azure.
 
 ---
 
 ## 📦 Project Structure
 
 docker-2tier-app/
+
+
 ├── backend/
 │ ├── Dockerfile
 │ ├── server.js
@@ -16,12 +18,6 @@ docker-2tier-app/
 │ └── index.html
 ├── docker-compose.yml
 └── README.md
-
-yaml
-Copy
-Edit
-
----
 
 ## 🔧 Technologies Used
 
@@ -40,11 +36,11 @@ Edit
 > You must have Docker Desktop and Git installed.
 
 ```bash
-# Clone the repository
+Clone the repository
 git clone https://github.com/Ghostnoble/docker-2tier-app.git
 cd docker-2tier-app
 
-# Run the app locally
+Run the app locally
 docker-compose up --build
 Frontend available at: http://localhost
 
@@ -58,8 +54,6 @@ Install Docker & Docker Compose
 Clone the GitHub repo to the VM:
 
 bash
-Copy
-Edit
 git clone https://github.com/Ghostnoble/docker-2tier-app.git
 cd docker-2tier-app
 Run the app:
