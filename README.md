@@ -6,7 +6,7 @@ This is a Capstone Project for **Group 6** under the Cloud Infrastructure and Au
 
 ## 📦 Project Structure
 
-docker-2tier-app/
+docker-2tier-app
 
 
 ├── backend/
@@ -59,8 +59,6 @@ cd docker-2tier-app
 Run the app:
 
 bash
-Copy
-Edit
 docker-compose up -d
 Allow port 80 in the Azure VM networking to expose frontend.
 
