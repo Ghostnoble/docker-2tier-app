@@ -1,12 +1,12 @@
 version: "3.8"
+
 services:
   frontend:
-    build: ./frontend
+    image: ghostnoble/frontend:v2
     ports:
       - "80:80"
 
   backend:
-    build: ./backend
+    image: ghostnoble/backend:v1
     ports:
       - "5000:5000"
-      
